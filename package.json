@@ -1,0 +1,30 @@
+{
+  "name": "farmy-challenge_2023",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_OPTIONS='--inspect' && next dev",
+    "build": "next build",
+    "start": "next start",
+    "test": "jest --coverage",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.9.5",
+    "fs.promises": "^0.1.2",
+    "next": "13.4.13",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-icons": "^4.10.1",
+    "react-redux": "^8.1.2",
+    "react-sortablejs": "^6.1.4",
+    "sortablejs": "^1.15.0",
+    "styled-components": "^6.0.7"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "5.16.4",
+    "@testing-library/react": "^14.0.0",
+    "@testing-library/user-event": "14.4.3",
+    "jest-environment-jsdom": "^29.6.2"
+  }
+}
