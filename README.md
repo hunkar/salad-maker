@@ -1,5 +1,5 @@
 # Salad designer and planner
-Quick coding challenge to spice up our hiring processes.
+Quick coding challenge.
 ### Technical specs:
 - React/Next JS basic app:
   - Simply fork the repo and run `yarn install` followed by `yarn run dev`.
